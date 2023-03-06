@@ -47,10 +47,6 @@ public class HSStudent extends StudentTest {
     // (name) has not yet qualified for graduation.
     // Where (name) is the student's name.
     public String toString(){
-        if (gradQualify()){
-            return super.getName() + " has qualified for graduation.";
-        }
 
-        return super.getName() + " has not yet qualified for graduation.";
     }
 }
